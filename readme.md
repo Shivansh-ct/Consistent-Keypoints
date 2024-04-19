@@ -6,12 +6,16 @@ Required packages of python3 are listed in [python versions](python_versions.txt
 ## Dataset
 The DISFA dataset can be obtained at [DISFA](http://mohammadmahoor.com/disfa/).
 ## Code Usage
-**data_and_feature_creation.ipynb** is used to create the final features from the datasets.  
-### PCA_train  
-contains the code for PCA training, visualizations and creating the comparison graphs.
-**PCA_train** is used to train PCA model on the three datasets and create visualization. 
-### PCA_vs_FACS
-contains the code for creating comparison graph of PCA AUs, pure AUs, and comb AUs.
+**KPM_data_generation.ipynb** is used for preprocessing and final KPM data generation from the dataset.  
+### AU consistency
+**au_coding_combine.py** is a helper file to generate AU consistency across the video timeline using **gen_AU_consistency.ipynb** 
+**analysis_AU_consistency.ipynb** is used to analyze CRM in the DISFA dataset using the **AU consistency** metric.
+### Keypoint based metrics
+**gen_keypoint_metrics.ipynb** is used to generate all the keypoint-based metrics across the video timeline.
+
+### AU consistency vs. Keypoint-based metrics
+**compare_all_metrics.ipynb** is used to evaluate the comparison between AU consistency and Keypoint-based metrics.
+
 
 
 
