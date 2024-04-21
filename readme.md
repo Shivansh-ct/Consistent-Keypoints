@@ -1,14 +1,14 @@
 # CRM measurements using automated Facial Keypoint Tracking
-Code for the paper "Consistent Movement of Viewers' Facial Keypoints While Watching Emotionally Evocative Videos" 
+<!-- Code for the paper "Consistent Movement of Viewers' Facial Keypoints While Watching Emotionally Evocative Videos"  -->
 
 ## Installation
-Required packages of python3 are listed in [python versions](python_versions.txt). The Facial Landmark Frontalization algorithm [paper](https://ieeexplore.ieee.org/document/9190989) [code](https://github.com/bbonik/facial-landmark-frontalization) is used in preprocessing.   
+The Facial Landmark Frontalization algorithm [paper](https://ieeexplore.ieee.org/document/9190989) [code](https://github.com/bbonik/facial-landmark-frontalization) is used in preprocessing.   
 ## Dataset
 The DISFA dataset can be obtained at [DISFA](http://mohammadmahoor.com/disfa/).
 ## Code Usage
 **KPM_data_generation.ipynb** is used for preprocessing and final KPM data generation from the dataset.  
 ### AU consistency
-**au_coding_combine.py** is a helper file to generate AU consistency across the video timeline using **gen_AU_consistency.ipynb** 
+**au_coding_combine.py** is a helper file to generate AU consistency across the video timeline using **gen_AU_consistency.ipynb**.   
 **analysis_AU_consistency.ipynb** is used to analyze CRM in the DISFA dataset using the **AU consistency** metric.
 ### Keypoint based metrics
 **gen_keypoint_metrics.ipynb** is used to generate all the keypoint-based metrics across the video timeline.
