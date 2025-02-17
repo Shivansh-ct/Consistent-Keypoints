@@ -2,7 +2,7 @@
 <!-- Code for the paper "Consistent Movement of Viewers' Facial Keypoints While Watching Emotionally Evocative Videos"  -->
 
 ## Installation
-The Facial Landmark Frontalization algorithm [paper](https://ieeexplore.ieee.org/document/9190989) [code](https://github.com/bbonik/facial-landmark-frontalization) is used in preprocessing.   
+The Facial Landmark Frontalization algorithm [paper](https://ieeexplore.ieee.org/document/9190989) [code](https://github.com/Shivansh-ct/Consistent-Keypoints/tree/main/FacialLandmarkFrontalization_66) is used in preprocessing.   
 ## Dataset
 The DISFA dataset can be obtained at [DISFA](http://mohammadmahoor.com/disfa/).
 ## Code Usage
